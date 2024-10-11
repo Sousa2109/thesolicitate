@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 7 - Carta Digital</title>
+    <style>
+        body {
+            background-color: #2d004d; /* Roxo escuro */
+            color: #f0e6ff; /* Tom de roxo claro para o texto */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh; /* Para garantir que o body cubra toda a tela */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px; /* Limita a largura da div */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #3d0066; /* Fundo roxo mais claro */
+            padding: 20px;
+            box-sizing: border-box; /* Inclui o padding no cálculo do tamanho da div */
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); /* Sombra na caixa */
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem; /* Aumentando o tamanho do texto */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 800px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            font-size: 1.2rem; /* Aumentando o tamanho do botão */
+            color: #fff;
+            background-color: #7a00cc; /* Roxo vibrante */
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #9900ff; /* Um roxo mais claro no hover */
+            box-shadow: 0px 0px 15px #9900ff; /* Brilho no botão */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eu te amo...</h1>
+        <p>
+            E agora, prometo amar para todo sempre, até que você desista de mim.
+        </p>
+
+        <!-- Imagem anexada -->
+        <div class="image-container">
+            <img src="f7.png" alt="Imagem Descritiva">
+        </div>
+
+        <!-- Botão para a próxima página -->
+    </div>
+
+    <script>
+        function irParaProximaPagina() {
+            window.location.href = "p8.html"; // Redireciona para p8.html
+        }
+    </script>
+</body>
+</html>
